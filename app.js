@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
   res.send('DevOps Live Project - Version 1 🚀');
 });
 
-app.listen(3000, () => {
+app.listen(8080, () => {
   console.log('Server running on port 8080');
 });
